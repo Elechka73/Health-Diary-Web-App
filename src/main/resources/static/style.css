@@ -1,0 +1,26 @@
+.body{background-image: url(https://webuploads.hb.ru-msk.vkcs.cloud/translucent-image%20%281%29.png); margin-left: 3px; margin-right: 3px; font-family: Verdana, Geneva, sans-serif; background-repeat: initial; background-attachment: scroll; background-position: top; background-size: 150px 150px;}
+.table{border: 1px solid darkgreen;  border-collapse: collapse; background: linear-gradient(45deg, #CAE4D8, #C5DDE8)}
+.th, td {
+    border: 1px solid darkgreen;
+}
+.management-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-form {
+    width: 30%;
+    height: 500px;
+    border: 1px  solid darkgreen;
+    border-collapse: collapse;
+    background: linear-gradient(45deg, #CAE4D8, #C5DDE8);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.table-container {
+    flex: 1;
+    overflow: auto;
+    /*padding: 10px;*/
+    height: 500px;
+}
